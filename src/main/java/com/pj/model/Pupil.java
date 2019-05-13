@@ -2,17 +2,16 @@ package com.pj.model;
 
 /**
  * Created on 2019/5/13 17:23
- * 小学生类
- * class of pupil
+ * 小学生类 / class of pupil
  * @author pj Deng
  */
 public class Pupil {
     /**
-     * 学生所在位置编号
+     * 学生所在位置编号 / pupil's index
      */
     private Integer index;
     /**
-     * 学生说出的内容
+     * 学生说出的内容 / pupil's speaking
      */
     private String speakWords;
 

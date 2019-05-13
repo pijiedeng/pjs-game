@@ -11,7 +11,6 @@ import java.util.ArrayList;
  */
 public abstract class AbstractExecutor {
 
-
     /**
      * 注入游戏服务接口  / inject interface of game service
      */
@@ -21,7 +20,6 @@ public abstract class AbstractExecutor {
     public void setGameService(GameService gameService){
         this.gameService = gameService;
     }
-
     /**
      * 执行开始游戏的动作 / start game
      * @param pupilSize  学生的数量 / amount of pupil

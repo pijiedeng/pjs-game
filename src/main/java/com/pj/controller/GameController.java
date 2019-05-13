@@ -5,6 +5,7 @@ import com.pj.service.GameService;
 import com.pj.service.impl.MathTeacher;
 import com.pj.utils.GameConstant;
 import com.pj.utils.RespResult;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +24,7 @@ import java.util.ArrayList;
  * 游戏服务对外接口  /  outer restful interface of game service
  * @author pj Deng
  */
+@Api(value = "游戏服务接口说明 / document of game service")
 @RestController
 @RequestMapping(value = "/game")
 public class GameController {

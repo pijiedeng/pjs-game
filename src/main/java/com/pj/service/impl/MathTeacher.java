@@ -12,6 +12,6 @@ import java.util.ArrayList;
 public class MathTeacher extends AbstractExecutor {
     @Override
     public ArrayList<String> playGame(Integer pupilSize, Integer stageNo) {
-        return this.playGame(pupilSize , stageNo);
+        return this.gameService.playGame(pupilSize , stageNo);
     }
 }
